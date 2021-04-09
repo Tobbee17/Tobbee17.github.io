@@ -8,6 +8,9 @@ Body {
     p {
       color: rgb(255, 0, 186);
     }
+    a {
+      color: rgb(136, 245, 12);
+    }
     h2 {
       color: rgb(248, 6, 6)
     }
