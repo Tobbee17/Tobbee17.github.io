@@ -47,5 +47,17 @@ Body {
       }
     }
 
-    
+    .project-tile{
+      margin-bottom: 500px;
+      background-image: linear-gradient(#f31af747,white);
+      height: 100vh;
+      display: grid;
+      gap: 20px 20px;
+      grid-template-columns: auto auto;
+  }
+  
+  .project-container{
+      background-color: rgb(136, 233, 10);
+      text-align: center;
+  }
   
