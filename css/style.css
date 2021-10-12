@@ -11,6 +11,7 @@ Body {
     p3 {
       color: rgb(10, 10, 10);
       font-size: large;
+      text-align: center;
     }
     ul {
       list-style-type: none;
