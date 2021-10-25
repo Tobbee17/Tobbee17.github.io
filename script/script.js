@@ -1,9 +1,15 @@
+var gratis = 0<=3;
+var barn = 4<=15;
+var gammel = 67;
 
-var sum = 0;
+var alder = Number(prompt("Hvor gammel er du"));
 
-while (sum < 100) {
-  var tall = Number(prompt("Skriv et tall"));
-  sum += tall;
+if (alder == gratis && alder < 3) {
+    console.log("Du kan kjøre gratis");
+} 
+else if (alder < barn) {
+    console.log("Du får 50% rabbat siden du er mellom 4-15 år");
 }
-
-console.log(sum);
+else if (alder >= gammel) {
+    console.log("Du får 50% rabbat siden du er eldre en 67");
+}
